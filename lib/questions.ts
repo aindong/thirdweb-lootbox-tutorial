@@ -7,40 +7,36 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
+    questionText: "Who is ASH ketchum's first pokemon?",
     image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-    answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
-    ],
-    correctAnswerIndex: 1,
-  },
-  {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
+      "https://upload.wikimedia.org/wikipedia/en/e/e4/Ash_Ketchum_Journeys.png",
+    answers: ["Evee", "Squirtle", "Charmander", "Pikachu"],
     correctAnswerIndex: 3,
   },
   {
-    questionText: "Where in the UK is the MINI plant?",
+    questionText: "Who is professor OAK?",
     image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
-    correctAnswerIndex: 0,
-  },
-  {
-    questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
+      "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Lets_Go_Pikachu_Eevee_Professor_Oak.png/180px-Lets_Go_Pikachu_Eevee_Professor_Oak.png",
+    answers: ["A bystander", "An Enemy", "A Professor", "A Pokemon"],
     correctAnswerIndex: 2,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
+    questionText:
+      "How many gym badges are needed on Pokemon Yellow to enter Pokemon League?",
+    image:
+      "https://archives.bulbagarden.net/media/upload/thumb/c/c9/Ash_Unova_Badges.png/800px-Ash_Unova_Badges.png",
+    answers: ["2", "5", "6", "8"],
     correctAnswerIndex: 3,
+  },
+  {
+    questionText: "Who is suicune?",
+    answers: ["Pokemon", "Legendary Pokemon", "An item", "No one"],
+    correctAnswerIndex: 1,
+  },
+  {
+    questionText: "First Pokemon Version on Gameboy?",
+    answers: ["Yellow", "White", "Blue", "Red"],
+    correctAnswerIndex: 0,
   },
 ];
 
